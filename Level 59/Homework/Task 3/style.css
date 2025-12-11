@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+
+}
+
+#circle {
+    border: 10px solid gray;
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+
+    border-top: 10px solid white;
+    animation-name: rotation;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    } 
+    100% {
+        transform: rotate(360deg);
+    }
+}

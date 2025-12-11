@@ -1,0 +1,49 @@
+@import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+
+    grid-gap: 5%;
+}
+
+.card {
+    border: 5px solid red;
+}
+
+.first {
+    grid-column: span 2;
+}
+
+.third {
+    grid-column: span 2;
+}
+
+.fourth {
+    grid-column: 1 / 2;
+}
+
+.fifth {
+    grid-column: 4 / 5;
+    grid-row: span 2;
+}
+
+.attribution {
+    margin-top: 20%;
+}

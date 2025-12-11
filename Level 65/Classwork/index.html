@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="add()">+1</button>
+    <p>Count: 0</p>
+
+    <script>
+        // alert() - გამოაქვს გამაფრთხილებელი მესიჯი
+        // alert("Page loaded")
+
+        // confirm() - დამდასტურებელი მესიჯი
+        // let agreed = confirm("Agree to cookies policy")L
+        
+        // prompt() - შესტანი ველი, სადაც შეგვიძლია მოთხოვნილი ინფორმაციის შეტანა
+
+
+        let countP = document.body.children[1]
+        let count = 0;
+        
+
+        function add() {
+            count += 1;
+            countP.textContent = "Count: " + count;
+        }
+    </script>
+</body>
+</html>

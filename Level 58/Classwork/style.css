@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    
+    border-top:  4px solid seagreen;
+
+    transition-duration: 2s;
+    transition-property: transform width;
+    transition-timing-function: cubic-bezier(0.95,-0.64, 1, 1.31);
+    transition-delay: 2s;
+}
+
+.box:active {
+    transform: translate(100px, 150px) scale(2) rotate(45deg) skew(30deg);
+    background-color: purple;
+    width: 1000px;
+}
+
+/*
+transform - დროებითი გარდაქმნა, ფიზიკური ცვლილება
+scale - ელემენტის სიდიდე, 1 - ელემენტის ნორმალუირი ზომა | ერთეუილი რიცხვითი კოეფიციენტი
+rotate - მობრუნება | ერთეული გრადუსი
+skew - გაწელვა | ერთეულად ღებულობს გრადუსებს
+trasnlate - გადათარგმნა, მდებარეობის შეცვლა | ერთეული pixel
+
+
+transition - გადასვლა 
+transition-property - გადავსლის კუთვნილება
+transition-duration - გადავსლის ხანგრძლივობა
+transition-timing-function
+transition-delay - გადასვლის დაყოვენბა
+*/

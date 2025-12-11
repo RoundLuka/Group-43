@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, "sans-serif";
+}
+
+body {
+    height: 100vh;
+    font-size: 3em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 10%;
+}
+
+.info {
+    margin-bottom: 5%;
+}
+
+#winner {
+    color: white;
+    background-color: #333;
+    
+    font-size-adjust: 1.5;
+    padding: 2%;
+}
+
+#playerMove {
+    display: flex;
+    gap: 10%;
+}
+
+.optionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: antiquewhite;
+    border: 1px dotted black;
+    padding: 5%;
+}
+
+.optionDiv:hover {
+    box-shadow: 0 0 12px rgb(101, 101, 10);
+}
+
+.optionDiv:hover h2 {
+    box-shadow: 0 0 12px rgb(101, 101, 10);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 4) შექმენით HTML ღილაკი <button id="sizeBtn">Change Size</button> და <h1 id="title">Welcome</h1>. internal JS-ში გააკეთეთ ისე, რომ ღილაკზე დაჭერისას h1 ტექსტის ზომა გაიზარდოს 40px-მდე (style.fontSize = "40px") -->
+    
+    <h1 id="title">Welcome</h1>
+    <button onclick="changeFontSize()">Change Size</button>
+
+    <script>
+        let header1 = document.body.children[0];
+        
+        function changeFontSize() {
+            header1.style.fontSize = '120px'
+        }
+    </script>
+</body>
+</html>

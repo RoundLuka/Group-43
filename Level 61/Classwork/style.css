@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 10em;
+}
+
+.grid-container {
+    height: 2000px;
+
+    border: 5px solid red;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: 300px 400px 500px;
+
+    gap: 40px;
+}
+
+
+.grid-item {
+    height: 200px;
+    background-color: rgba(17, 57, 167, 0.858);
+    border: 3px solid rgb(246, 243, 243);
+    border-radius: 5px;
+}
+

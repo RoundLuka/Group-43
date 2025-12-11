@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.loadingFrame {
+    border: 5px solid gray;
+
+    width: 800px;
+    height: 150px;
+
+    padding: 15px;
+}
+
+.LoadingBar {
+    width: 1%;
+    height: 95%;
+    background: green;
+
+    transition: transform 2s, background-color 1s;
+}
+
+.LoadingBar:hover {
+    width: 100%;
+    transform: rotate(35deg);
+}
