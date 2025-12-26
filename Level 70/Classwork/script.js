@@ -1,20 +1,21 @@
 // 5) შექმენით car ობიექტის კონსტრუქტორი რომელსაც ექნება 5 კუთვნილება: brand, model, year, mileage, drive (მეთოდი), drive მეთოდმა უნდა გაზარდოს mileage 100-ით ყოველი გამოძახებისას, შექმენით მინიმუმ 3 ობიექტი და თითოეულზე გამოიძახეთ drive მეთოდი ორჯერ, კომენტარით ახსენით რა არის ობიექტი და როგორ იქმნება ის კონსტრუქტორით
 
 
-// let car = {
-//     brand: "Hyundai",
-//     model: "Jeep",
-//     year: 2012,
-//     mileage: 500.1,
-//     safetyCheck: true,
+let car = {
+    brand: "Hyundai",
+    model: "Jeep",
+    year: 2012,
+    mileage: 500.1,
+    safetyCheck: true,
 
-//     drive: function() {
-//         car.mileage += 100;
-//     }
+    drive: function() {
+        car.mileage += 100;
+    }
 
-// }
+}
 
 // console.log(car.mileage)
+console.log(car.brand)
 
 // car.drive()
 // car.drive()
@@ -108,5 +109,5 @@
 
 // setInterval(count, 1000)
 
-setTimeout(changeColor, 5000)
+// setTimeout(changeColor, 5000)
 
