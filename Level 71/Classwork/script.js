@@ -27,9 +27,9 @@ let myNums = ["Luka", "Tornike", "Nikolozi"]
 // .slice
 
 
-for(let i = 0; i < myNums.length; i++) {
+// for(let i = 0; i < myNums.length; i++) {
     
-    let product = document.createElement("p")
-    product.textContent = myNums[i]
-    document.body.appendChild(product)
-}
+//     let product = document.createElement("p")
+//     product.textContent = myNums[i]
+//     document.body.appendChild(product)
+// }
